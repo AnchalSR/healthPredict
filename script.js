@@ -7,3 +7,15 @@ menubar.onclick = () =>{
     mynav.classList.toggle('active')
 }
 
+<script>
+    window.embeddedChatbotConfig = {
+    chatbotId: "du4kc7-3VrTIuh-ZbwnVO",
+    domain: "www.chatbase.co"
+    }
+    </script>
+    <script
+    src="https://www.chatbase.co/embed.min.js"
+    chatbotId="du4kc7-3VrTIuh-ZbwnVO"
+    domain="www.chatbase.co"
+    defer>
+    </script>
