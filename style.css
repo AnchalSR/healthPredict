@@ -33,10 +33,10 @@ html{
 }
 .navbar a{
     color: white;
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-left: 2rem;
     position: relative;
-  
+    margin-right:70px
 }
 .navbar a:after{
     content: '';
@@ -141,6 +141,10 @@ html{
 .about-content{
     width: 80%;
 }
+
+#aboutus2{
+    display:none;
+}
 .about-content h1{
     font-size: 40px;
     margin-bottom: 15px;
@@ -149,14 +153,14 @@ html{
     font-size: 1.5rem;
     margin-bottom: 30px;
 }
-.about-content a{
+.about-content button{
     background: var(--secclr);
     padding: 1rem 3rem;
     font-size: 1.5rem;
     color: white;
     transition: .5s;
 }
-.about-content a:hover{
+.about-content button:hover{
     background: transparent;
     border: 1px solid var(--secclr);
     color: black;
@@ -285,8 +289,10 @@ html{
     position: relative;
 }
 .inner-doctor img{
-    width: 100%;
-
+    width: 70%;
+    border-radius:25%;
+    border:#239f85;
+    
 }
 .doc-icons{
     position: absolute;
@@ -406,10 +412,19 @@ html{
   }
 
 
+  /* .fa-notes-medical{
+    margin-top:-100px;
+  } */
+/*  */
 
 
+  /* .fa-user-md{
+    margin-top:80px;
+  }
 
-
+  .fa-hospital-user{
+    margin-top:30px;
+  } */
 
 
 
@@ -451,7 +466,7 @@ html{
     }
     .background-content{
         
-        width: 100%;
+       width: 100%;
        left: 50%;
        top: 50%;
        transform: translate(-50%, -50%);
@@ -459,6 +474,7 @@ html{
     }
     .inner-about .inner-about-image img{
         margin-top: 20px;
+        width:100%;
     }
 
     .right-service-content{
