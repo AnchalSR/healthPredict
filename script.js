@@ -7,6 +7,11 @@ menubar.onclick = () =>{
     mynav.classList.toggle('active')
 }
 
+document.querySelector("button").addEventListener("click",function(){
+    document.getElementById("aboutus2").style.display="block";
+    this.style.display="none";
+})
+
 <script>
     window.embeddedChatbotConfig = {
     chatbotId: "du4kc7-3VrTIuh-ZbwnVO",
